@@ -20,9 +20,7 @@ checkboxes.forEach(checkbox => {
    if(inBetween){
     checkbox.checked = true;
    }
-
-  });
-
+});
 }
     lastChecked = this;
 }
@@ -30,4 +28,3 @@ checkboxes.forEach(checkbox => {
 
 
 checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
-
